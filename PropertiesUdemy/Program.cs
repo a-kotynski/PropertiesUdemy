@@ -14,8 +14,8 @@ namespace PropertiesUdemy
             // Property is a class member that encapsulates a getter/setter
             // for accessing a field.
             // Property is used to create getter/setter wih less code.
-            var person = new Person();  
-            person.Birthdate = new DateTime(1982, 1, 1);
+            var person = new Person(new DateTime(1982, 1, 1));
+            Console.WriteLine(person.Age);
         }
     }
 }
